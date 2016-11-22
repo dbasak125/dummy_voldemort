@@ -1,5 +1,5 @@
 ------------------------------ MODULE voldemort ------------------------------
-(* /*Replicated storage protocol with clienside routing. *)
+(* /*Replicated storage protocol with clientside routing. *)
 (* /*Debaditya Basak, 11 Nov 2016 *)
 EXTENDS Integers, Sequences, FiniteSets, TLC
 CONSTANTS N, C, STOP, ReadQ, WriteQ, FAILNUM
